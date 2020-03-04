@@ -4,9 +4,9 @@ def oxford_comma(array)
   		array.shift
   	when 2
   		array.shift << " and " << array.pop
-#   	when >2
-#   		last = " and " << array.pop
-#   		array.shift << ", " << array.join(", ") << "," << last
+   	else
+      last = " and " << array.pop
+   		array.shift << ", " << array.join(", ") << "," << last
   end
 end
 
