@@ -4,9 +4,9 @@ def oxford_comma(array)
   		array.shift
   	when 2
   		array.shift << " and " << array.pop
-  	when >2
-  		last = " and " << array.pop
-  		array.shift << ", " << array.join(", ") << "," << last
+#   	when >2
+#   		last = " and " << array.pop
+#   		array.shift << ", " << array.join(", ") << "," << last
   end
 end
 
@@ -22,7 +22,7 @@ end
 # middle.pop
 # middle
 
-# array = ["kiwi"]
+array = ["kiwi"]
 # array = ["kiwi", "durian"]
-array = ["kiwi", "durian", "starfruit", "mangos", "dragon fruits"]
+# array = ["kiwi", "durian", "starfruit", "mangos", "dragon fruits"]
 puts oxford_comma(array)
