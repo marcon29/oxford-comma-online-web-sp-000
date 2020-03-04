@@ -24,5 +24,5 @@ end
 
 # array = ["kiwi"]
 # array = ["kiwi", "durian"]
-array = ["kiwi", "durian", "starfruit", "mangos", "dragon fruits"]
-puts oxford_comma(array)
+# array = ["kiwi", "durian", "starfruit", "mangos", "dragon fruits"]
+# puts oxford_comma(array)
