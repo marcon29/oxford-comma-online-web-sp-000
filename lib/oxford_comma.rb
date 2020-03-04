@@ -22,7 +22,7 @@ end
 # middle.pop
 # middle
 
-array = ["kiwi"]
-# array = ["kiwi", "durian"]
+# array = ["kiwi"]
+array = ["kiwi", "durian"]
 # array = ["kiwi", "durian", "starfruit", "mangos", "dragon fruits"]
 puts oxford_comma(array)
